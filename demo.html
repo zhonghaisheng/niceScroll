@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+.scroll-box{width:300px;height:500px;overflow:hidden}
+.scroll{width:100%;height:2200px;background:#F30}
+</style>
+<script src="jquery.min.js"></script>
+<script src="jquery.nicescroll.js"></script>
+<script type="text/javascript">
+$(function(){
+	//$("body").niceScroll();
+  
+    var theme = {
+      touchbehavior:false,
+      cursorcolor:"#0096ce",
+      cursorwidth:"8px",
+//      cursorborder:"",
+      background:"#a0ffa0",
+    }
+  
+    var nice = $(".scroll-box").niceScroll(theme);
+})
+</script>
+</head>
+
+<body>
+	<div class="scroll-box">
+    	<div class="scroll">
+        	34<br />
+        	34243<br />
+        	34<br />
+        	34<br />
+        	423<br />
+        	432<br />
+        	43<br />
+        	44<br />
+        </div>
+    </div>
+</body>
+</html>
